@@ -1,3 +1,3 @@
-FROM alpine
-RUN useradd -m user && mkdir .hidden
+FROM ubuntu
+RUN useradd -m level_5 && echo "" > passwd level_5
 ADD ./findme /home/user/.hidden/.findme

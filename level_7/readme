@@ -1,0 +1,10 @@
+Some brut force now!
+
+you need to get content from a server running from you terminal
+the server is handling http request 
+The server when requested gives password directly as response 
+The server is listening on port between 41000 to 490000
+So are you trying all posibilities and how in the first place ?
+Google is your friend
+
+
