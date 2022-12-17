@@ -1,0 +1,3 @@
+FROM ubuntu
+RUN useradd -m level_1 && mkdir .hidden
+ADD ./findme /home/user/.hidden/.findme

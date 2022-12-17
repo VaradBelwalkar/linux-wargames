@@ -1,0 +1,4 @@
+FROM ubuntu
+RUN useradd -m level_3 && echo "qwertyuiop_dfoij40DNF32345nyu" > passwd level_3 mkdir .hidden
+ADD ./readme /home/user/.hidden/.readme
+ADD ./hiddenfolder.tar.gz /home/level_3/

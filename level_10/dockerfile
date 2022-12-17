@@ -1,0 +1,3 @@
+FROM alpine
+RUN useradd -m user && mkdir .hidden
+ADD ./findme /home/user/.hidden/.findme

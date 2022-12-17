@@ -1,0 +1,3 @@
+FROM ubuntu
+RUN useradd -m level_4 && echo "00001010"> passwd level_4 && mkdir .hidden
+ADD ./findme /home/user/.hidden/.findme

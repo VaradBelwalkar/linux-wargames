@@ -1,0 +1,5 @@
+FROM ubuntu
+RUN useradd -m level_2 && sldkfjoi4wevnaDFINelksdfNYVolkj23124dVbiuSOnkjdOttnrvnsdflk4 > passwd level_1 && mkdir .gohere && 
+ADD ./readme /home/level_2/.readme
+ADD ./pythonfile.pyc /home/level_2/
+ADD ./file.out /home/level_2/.gohere/
